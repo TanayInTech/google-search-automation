@@ -2,7 +2,7 @@
 
 # Create table if not exists
 create_table_query = '''
-CREATE TABLE IF NOT EXISTS cricketNews(
+CREATE TABLE IF NOT EXISTS cricket_news(
     id SERIAL PRIMARY KEY,
     keyword TEXT,
     year INT,
